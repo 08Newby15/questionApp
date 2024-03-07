@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/LabStarter/src/QuestionsApp.Web/QuestionsApp.Web.csproj": {}
+    "/Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/Task/questionApp/src/QuestionsApp.Web/QuestionsApp.Web.csproj": {}
   },
   "projects": {
-    "/Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/LabStarter/src/QuestionsApp.Web/QuestionsApp.Web.csproj": {
+    "/Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/Task/questionApp/src/QuestionsApp.Web/QuestionsApp.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/LabStarter/src/QuestionsApp.Web/QuestionsApp.Web.csproj",
+        "projectUniqueName": "/Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/Task/questionApp/src/QuestionsApp.Web/QuestionsApp.Web.csproj",
         "projectName": "QuestionsApp.Web",
-        "projectPath": "/Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/LabStarter/src/QuestionsApp.Web/QuestionsApp.Web.csproj",
+        "projectPath": "/Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/Task/questionApp/src/QuestionsApp.Web/QuestionsApp.Web.csproj",
         "packagesPath": "/Users/daniel/.nuget/packages/",
-        "outputPath": "/Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/LabStarter/src/QuestionsApp.Web/obj/",
+        "outputPath": "/Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/Task/questionApp/src/QuestionsApp.Web/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/daniel/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.1, )"

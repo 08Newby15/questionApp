@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QuestionsApp.Tests
-build_property.ProjectDir = /Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/LabStarter/src/QuestionsApp.Tests/
+build_property.ProjectDir = /Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/Task/questionApp/src/QuestionsApp.Tests/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,13 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "XPcZo8AGFfYOBf17R6hnPjCpq+uFY0EN5iIUJHdsJHY8dZHkTIPy2DJe0RaqUFeiMiR8BafR2kk/mKC21KcqqA==",
+  "dgSpecHash": "qKaqSR0A1Q34s218VKJvVdIVCv5gLKeNxpE5EeMaQyoR79aO+83qWmqoKP5n8bfByeOJcgE9ELCOQA6lztzFLQ==",
   "success": true,
-  "projectFilePath": "/Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/LabStarter/src/QuestionsApp.Tests/QuestionsApp.Tests.csproj",
+  "projectFilePath": "/Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/Task/questionApp/src/QuestionsApp.Tests/QuestionsApp.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/daniel/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
+    "/Users/daniel/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/Users/daniel/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/daniel/.nuget/packages/microsoft.aspnetcore.openapi/8.0.1/microsoft.aspnetcore.openapi.8.0.1.nupkg.sha512",
     "/Users/daniel/.nuget/packages/microsoft.codecoverage/17.8.0/microsoft.codecoverage.17.8.0.nupkg.sha512",
     "/Users/daniel/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/daniel/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "/Users/daniel/.nuget/packages/microsoft.net.test.sdk/17.8.0/microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "/Users/daniel/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
     "/Users/daniel/.nuget/packages/microsoft.testplatform.objectmodel/17.8.0/microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",
