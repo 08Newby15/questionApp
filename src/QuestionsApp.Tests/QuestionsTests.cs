@@ -1,13 +1,26 @@
+using Microsoft.EntityFrameworkCore;
+using QuestionsApp.Web.DB;
+
 namespace QuestionsApp.Tests;
 using FluentAssertions;
 using QuestionsApp.Web.Handlers.Commands;
 using QuestionsApp.Web.Handlers.Queries;
 
-public class QuestionTests
+
+
+public class QuestionsTests
 {
-    private GetQuestionsQuery NewGetQuestionsQueryHandler => new();
-    private AskQuestionCommand NewAskQuestionCommandHandler => new();
-    private VoteForQuestionCommand NewVoteForQuestionCommandHandler => new();
+    private readonly QuestionsContext _context;
+
+    public QuestionsTests() {
+        var options = new DbContextOptionsBuilder<QuestionsContext>().
+            UseInMemoryDatabase(Guid.NewGuid().ToString()).Options;
+        _context = new QuestionsContext(options);
+    }
+    
+    private GetQuestionsQuery NewGetQuestionsQueryHandler => new(_context);
+    private AskQuestionCommand NewAskQuestionCommandHandler => new(_context);
+    private VoteForQuestionCommand NewVoteForQuestionCommandHandler => new(_context);
     
     [Fact]
     public async void Empty()
