@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qKaqSR0A1Q34s218VKJvVdIVCv5gLKeNxpE5EeMaQyoR79aO+83qWmqoKP5n8bfByeOJcgE9ELCOQA6lztzFLQ==",
+  "dgSpecHash": "qioOabjCk/IM/pmZs7cNVBflH2KW3S5BgFQVhqfuLRrwu0gl7oyJZBL7osmVGJo4m8yViPKcnLFaEBPERlX9kg==",
   "success": true,
   "projectFilePath": "/Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/Task/questionApp/src/QuestionsApp.Tests/QuestionsApp.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/daniel/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
+    "/Users/daniel/.nuget/packages/fluentassertions/7.0.0-alpha.3/fluentassertions.7.0.0-alpha.3.nupkg.sha512",
     "/Users/daniel/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
     "/Users/daniel/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/daniel/.nuget/packages/microsoft.aspnetcore.openapi/8.0.1/microsoft.aspnetcore.openapi.8.0.1.nupkg.sha512",
@@ -21,7 +22,9 @@
     "/Users/daniel/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "/Users/daniel/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "/Users/daniel/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "/Users/daniel/.nuget/packages/system.configuration.configurationmanager/4.4.0/system.configuration.configurationmanager.4.4.0.nupkg.sha512",
     "/Users/daniel/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512",
+    "/Users/daniel/.nuget/packages/system.security.cryptography.protecteddata/4.4.0/system.security.cryptography.protecteddata.4.4.0.nupkg.sha512",
     "/Users/daniel/.nuget/packages/xunit/2.6.6/xunit.2.6.6.nupkg.sha512",
     "/Users/daniel/.nuget/packages/xunit.abstractions/2.0.3/xunit.abstractions.2.0.3.nupkg.sha512",
     "/Users/daniel/.nuget/packages/xunit.analyzers/1.10.0/xunit.analyzers.1.10.0.nupkg.sha512",

@@ -65,3 +65,5 @@
 /Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/Task/questionApp/src/QuestionsApp.Web/obj/Debug/net8.0/QuestionsApp.Web.pdb
 /Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/Task/questionApp/src/QuestionsApp.Web/obj/Debug/net8.0/QuestionsApp.Web.genruntimeconfig.cache
 /Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/Task/questionApp/src/QuestionsApp.Web/obj/Debug/net8.0/ref/QuestionsApp.Web.dll
+/Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/Task/questionApp/src/QuestionsApp.Web/bin/Debug/net8.0/MediatR.dll
+/Users/daniel/Desktop/Subjects/Semester4/LAB_ Serverseitige Softwareentwicklung & Data Management/Task/questionApp/src/QuestionsApp.Web/bin/Debug/net8.0/MediatR.Contracts.dll

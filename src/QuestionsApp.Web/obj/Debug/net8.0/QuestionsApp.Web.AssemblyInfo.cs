@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuestionsApp.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8d8c47d467b1719a255d543338ff87d6b804d1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuestionsApp.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuestionsApp.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
