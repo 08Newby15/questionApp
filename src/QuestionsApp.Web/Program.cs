@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using QuestionsApp.Web.DB;
 using QuestionsApp.Web.Handlers.Commands;
 using QuestionsApp.Web.Handlers.Queries;
+using DbContext = Microsoft.EntityFrameworkCore.DbContext;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +25,11 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope())
     scope.ServiceProvider.GetRequiredService<QuestionsContext>().Database.EnsureCreated();
 
+// activate static files serving (before the Map...)
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -31,7 +37,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
 app.UseHttpsRedirection();
+
+
+
 
 // Queries
 app.MapGet("api/queries/questions", async (IMediator mediator) 
