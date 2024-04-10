@@ -1,7 +1,10 @@
+using Microsoft.AspNetCore.SignalR;
 using QuestionsApp.Web.DB;
+using QuestionsApp.Web.Hubs;
 
 namespace QuestionsApp.Web.Handlers.Commands;
 using MediatR;
+
 
 
     
@@ -20,13 +23,21 @@ public class AskQuestionCommand : IRequestHandler<AskQuestionRequest, IResult>
 
         _context.Questions.Add(new QuestionDb { Content = request.Content });
         await _context.SaveChangesAsync(cancellationToken);
+        await _hub.SendRefreshAsync();
         return Results.Ok();
     }
     
+    private readonly IHubContext<QuestionsHub>? _hub;
+    public AskQuestionCommand(QuestionsContext context, IHubContext<QuestionsHub>? hub)
+    {
+        _context = context;
+        _hub = hub;
+    }
     private readonly QuestionsContext _context;
     public AskQuestionCommand(QuestionsContext context)
     {
         _context = context;
     }
+
 }
 

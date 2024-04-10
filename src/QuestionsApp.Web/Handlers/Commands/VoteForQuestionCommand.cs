@@ -1,5 +1,7 @@
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using QuestionsApp.Web.DB;
+using QuestionsApp.Web.Hubs;
 
 namespace QuestionsApp.Web.Handlers.Commands;
 using MediatR;
@@ -11,6 +13,12 @@ public class VoteForQuestionRequest : IRequest<IResult>
 
 public class VoteForQuestionCommand : IRequestHandler<VoteForQuestionRequest, IResult>
 {
+    private readonly IHubContext<QuestionsHub>? _hub;
+    public VoteForQuestionCommand(QuestionsContext context, IHubContext<QuestionsHub>? hub)
+    {
+        _context = context;
+        _hub = hub;
+    }
     public async Task<IResult> Handle(VoteForQuestionRequest request, CancellationToken cancellationToken)
     {
         if (!await _context.Questions.AnyAsync(q => q.Id == request.QuestionId, cancellationToken))
@@ -18,6 +26,7 @@ public class VoteForQuestionCommand : IRequestHandler<VoteForQuestionRequest, IR
 
         _context.Votes.Add(new VoteDb { QuestionId = request.QuestionId });
         await _context.SaveChangesAsync(cancellationToken);
+        await _hub.SendRefreshAsync();
         return Results.Ok();
     }
     
